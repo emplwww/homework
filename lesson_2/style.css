@@ -1,0 +1,32 @@
+﻿h1 {
+    background: red;
+}
+
+.t1 {
+    background: blue;
+    font-size: 32pt;
+    color: green;
+}
+
+.t2 {
+    border: 10px solid yellow;
+    border-radius: 5px;
+    font-size: 24pt;
+    margin-bottom: 60px;
+    padding-bottom: 60px;
+    padding-left: 20px;
+}
+
+.t3 {
+    font-weight: bold;
+    font-size: 72pt;
+    font-family: Courier New;
+}
+
+.t4{
+    font-size: 24px;
+    font-style: italic;
+    text-shadow: green 2px 2px 2px;
+    text-align: center;
+
+}
