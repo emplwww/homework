@@ -46,6 +46,6 @@ class Advertisement(models.Model):
     def get_html_image(self):
         if self.image:
             return format_html(
-                '<img src = "{url}" style = "max-width: 40px; max-height: 40px;"', url = self.image.url
+                '<img src = "{url}" style = "max-width: 40px; max-height: 40px;">', url = self.image.url
             )
 # Create your models here.
